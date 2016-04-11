@@ -1,0 +1,1 @@
+C:\Users\regga\Documents\Visual Studio 2015\Projects\IotMQTTClient_beta_v1\IotMQTTClient_beta_v1\AppPackages\IotMQTTClient_beta_v1_1.1.0.0\IotMQTTClient_beta_v1_1.1.0.0_x86_x64_arm.appxbundle

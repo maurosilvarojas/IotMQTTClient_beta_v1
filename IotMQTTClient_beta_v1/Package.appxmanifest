@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="16890redmaurosilva.MQTTClient" Publisher="CN=CCF7A148-058A-4481-94E1-955E9AE03CF0" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="d0dd61ea-4acb-4d91-8496-c28780579ff1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>MQTT Client</DisplayName>
+    <PublisherDisplayName>redmaurosilva</PublisherDisplayName>
+    <Logo>Assets\mqttPublisher-logo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="IotMQTTClient_beta_v1.App">
+      <uap:VisualElements DisplayName="IoT MQTT Client: Publisher" Square150x150Logo="Assets\mqttPublisher-LogoSQ150.png" Square44x44Logo="Assets\mqttPublisher-logoSQ.png" Description="IotMQTTClient_beta_v1" BackgroundColor="white">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\mqttPublisher-badge.png" />
+        <uap:DefaultTile ShortName="MQTT Client" Square310x310Logo="Assets\mqttPublisher-LogoSQ310.png" Wide310x150Logo="Assets\mqttPublisher-wide.png" Square71x71Logo="Assets\mqttPublisher-logoSQ71.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\mqttPublisher-Splashscreen.png" BackgroundColor="white" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="portraitFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
