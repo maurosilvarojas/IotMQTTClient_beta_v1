@@ -12,8 +12,11 @@ iot.eclipse.org
 Also by default the app has three different topics fully editable :
 
 /MQTTpublisher/testA
+
 /MQTTpublisher/testB
+
 /MQTTpublisher/testC
+
 Each section has a trigger for sending the data to the broker, the first one can send plain text or even code such as JSON code, and is triggered with a click of the publish button. The topic B section has for triggers, each digital input will send the value to the mqtt broker "on or off" regarding of the state of the switch (e.g Switch 1 : on  or  Swith4: off).
 
 Topic C section in contrast is fully dynamic, it simulates analog variable of your system (e.g temperature, speed etc), the trigger is given by default when the slide value change, the label besides let the user read with accuracy the exact value of the object.
