@@ -22,10 +22,12 @@ Each section has a trigger for sending the data to the broker, the first one can
 Topic C section in contrast is fully dynamic, it simulates analog variable of your system (e.g temperature, speed etc), the trigger is given by default when the slide value change, the label besides let the user read with accuracy the exact value of the object.
 
 
-
+Currently out of date...
 Download : https://www.microsoft.com/store/apps/9nblggh4nbhn
 
 download mqtt client windows-store
+
+
 
 
 
