@@ -1,4 +1,4 @@
-# IotMQTTClient_beta_v1
+# IotMQTTClient_beta_v1 sample branch 
 MQTT Client Publisher for windows
 
 Mqtt Client for Windows 10 :
